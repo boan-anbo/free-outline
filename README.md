@@ -48,8 +48,8 @@ Zotero exporter, plugin to send data directly to the interface
 
 ## Interface
 
-# Standalone Desktop
+1. Standalone Desktop
 
-# VsCode Plugin
+2. VsCode Plugin
 
-# Obsidian Plugin.
+3. Obsidian Plugin.
