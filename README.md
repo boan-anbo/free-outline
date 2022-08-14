@@ -42,6 +42,8 @@ Zotero exporter, plugin to send data directly to the interface
   - return a TOT (TO Ticket), with the information where it was stored. 
 
 ### 4. MD parser: parse raw markdown points to rich and structure Point Structure with content.
+  - This should be multilayers: i.e. the point structure is stable, but import plain texts are variable
+  - E.g. it should be able to process both tex and markdown formats. So the definition of levels etc does not need to follow the example of Markdown. Think of my writing plan parser.
 
 ### 5. A central processing unit: 
   - arguments: 
