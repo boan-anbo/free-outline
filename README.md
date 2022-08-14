@@ -26,7 +26,8 @@ Zotero exporter, plugin to send data directly to the interface
 
 ### 1. TO parser, which convert TO markup from plain text to TO tickets (TOT).
 
-### 2. TO data provider: agnostic data source to provide JSON-format collection of TOs (TOC). Could be sqlite, plain json file, etc.
+### 2. TO data provider: 
+  - non-agnostic data source to provide JSON-format collection of TOs (TOC). Could be sqlite, plain json file, etc.
 
 ### 3. TO data reader:
   - arguments: 
