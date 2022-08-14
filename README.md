@@ -28,6 +28,7 @@ Zotero exporter, plugin to send data directly to the interface
 
 ### 2. TO data provider: 
   - non-agnostic data source to provide JSON-format collection of TOs (TOC). Could be sqlite, plain json file, etc.
+  - should be written in different languages with system access, e.g. javascript for VsCode, Rust for Tauri
 
 ### 3. TO data reader:
   - arguments: 
@@ -40,7 +41,7 @@ Zotero exporter, plugin to send data directly to the interface
   - given a TO, persist it in a data source
   - return a TOT (TO Ticket), with the information where it was stored. 
 
-### 4. MD parser: parse raw markdown points to rich and structure Markdown Structure.
+### 4. MD parser: parse raw markdown points to rich and structure Point Structure with content.
 
 ### 5. A central processing unit: 
   - arguments: 
