@@ -35,6 +35,7 @@ Zotero exporter, plugin to send data directly to the interface
   - returns: TO collection (TOC)
   - 
 ### 3.1 TO data writer:
+  - agnostic
   - given a TO, persist it in a data source
   - return a TOT (TO Ticket), with the information where it was stored. 
 
